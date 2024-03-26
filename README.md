@@ -1,9 +1,15 @@
 # Use OpenAI GPT model to review Pull Requests for Azure Devops
 A task for Azure DevOps build pipelines to add GPT as PR reviewer
 
+## planned improvements
+
+- [ ] make prompt adjustable in azure devops settings / multiple prompts to choose from (only critical stuff / everything / concise) 
+- [ ] include logging of used tokens
+- [ ] include all files that changed as context to each prompt for better understanding in the LLM
+
 ## Installation
 
-Installation can be done using [Visual Studio MarketPlace](https://marketplace.visualstudio.com/items?itemName=mustaphalarhrouch.GPTPullRequestReview).
+VS Marketplace publication still to be done. 
 
 ## Usage
 
